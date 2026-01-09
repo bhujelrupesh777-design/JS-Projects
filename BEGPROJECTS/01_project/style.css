@@ -1,0 +1,39 @@
+   #container{
+    display: flex;
+    justify-content: center;
+   }
+   h1{
+            text-align: center;
+        }
+
+        .button{
+            width: 60px;
+            height: 60px;
+            display: inline-block;
+            margin: 8px;
+            cursor: pointer;
+            border-radius: 40px;
+            justify-content: center;
+            border: 3px solid white;
+            
+        }
+        
+        #red{
+            background-color: red;
+        }
+        
+         #black{
+            background-color: Black;
+        }
+        
+         #green{
+            background-color: green;
+        }
+        
+         #yellow{
+            background-color: yellow;
+        }
+        
+         #blue{
+            background-color: blue;
+        }
