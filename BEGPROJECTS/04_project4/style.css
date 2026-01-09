@@ -22,11 +22,11 @@
     border-radius: 10px;
 }
 
-.section1 h1{
+.section1 h1 {
     padding: 5px;
 }
 
-.section2 form{
+.section2 form {
     width: 100%;
     height: auto;
     display: flex;
@@ -35,7 +35,7 @@
     border-radius: 30px;
 }
 
-.section2 input{
+.section2 input {
     flex: 1;
     border-radius: 30px;
     outline: none;
@@ -43,12 +43,12 @@
     color: aliceblue;
     padding: 10px;
     padding-left: 8px;
-    background-color:transparent;
+    background-color: transparent;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.section2 form .btn{
+.section2 form .btn {
     padding: 5px;
     background-color: rgb(25, 167, 9);
     border-radius: 30px;
@@ -59,18 +59,36 @@
     cursor: pointer;
 }
 
-.section3{
+.section3 {
     margin: 20px;
     font-size: 17px;
 }
 
-.btn2{
+
+ul li{
+    margin: 5px;
+    
+}
+.btn2 {
     padding: 5px;
-    background-color: rgb(25, 167, 9);
+    background-color: rgb(255, 0, 0);
     border-radius: 30px;
     border: none;
     outline: none;
     width: 60px;
     color: skyblue;
     cursor: pointer;
+    margin-left: 60px;
+}
+
+.btn3 {
+    padding: 5px;
+    background-color: Green;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    width: 60px;
+    color: skyblue;
+    cursor: pointer;
+    margin-left: 60px;
 }

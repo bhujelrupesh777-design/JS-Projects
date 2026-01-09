@@ -15,6 +15,11 @@ add_button.addEventListener('click', (e) =>{
         span.className="btn2"
         span.innerHTML = "delete"
         Li.appendChild(span)
+
+        let span2 = document.createElement('button')
+        span2.className="btn3"
+        span2.innerHTML = "complete"
+        Li.appendChild(span2)
         savedata();
     }
 
